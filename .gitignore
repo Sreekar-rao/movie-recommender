@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+*.pkl
+
+# Node
+node_modules/
+dist/
+
+# Data (large files, don't commit raw dataset)
+backend/app/data/*.csv
+backend/app/data/*.zip
+backend/app/data/ml-latest-small/
+
+# Env
+.env
+.history/

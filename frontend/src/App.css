@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0f0f0f;
+  color: #f0f0f0;
+  font-family: system-ui, sans-serif;
+}
+
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 30px 0;
+}
+
+input {
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  background: #1a1a1a;
+  color: white;
+  font-size: 16px;
+  width: 150px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  background: #e50914;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #555;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.card {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid #2a2a2a;
+}
+
+.card h3 {
+  font-size: 15px;
+  margin: 0 0 8px 0;
+}
+
+.genres {
+  color: #999;
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+.rating {
+  color: #ffd700;
+  font-size: 14px;
+  margin: 0;
+}
